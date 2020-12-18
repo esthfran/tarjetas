@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F8F6F6"
+    android:orientation="vertical"
+    android:padding="1dp"
+    tools:context=".MainActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="616dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="208dp"
+                android:layout_height="31dp"
+                android:layout_alignParentTop="true"
+                android:layout_marginTop="14dp"
+                android:text="Informacion tarjeta de credito" />
+
+
+            <EditText
+                android:id="@+id/nombre"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_marginTop="53dp"
+                android:hint="@string/nombre"
+                android:inputType="text" />
+
+            <EditText
+                android:id="@+id/apellido"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_marginTop="112dp"
+                android:hint="@string/apellido"
+                android:inputType="text" />
+
+            <EditText
+                android:id="@+id/tarjeta"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_marginTop="167dp"
+                android:hint="@string/tarjeta"
+                android:inputType="number"
+                android:maxLength="16" />
+
+            <EditText
+                android:id="@+id/año"
+                android:layout_width="91dp"
+                android:layout_height="50dp"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="224dp"
+                android:layout_marginEnd="148dp"
+                android:ems="10"
+                android:hint="@string/año"
+                android:inputType="number"
+                android:maxLength="4" />
+
+            <EditText
+                android:id="@+id/mes"
+                android:layout_width="91dp"
+                android:layout_height="50dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="7dp"
+                android:layout_marginTop="224dp"
+                android:ems="10"
+                android:hint="@string/mes"
+                android:inputType="number"
+                android:maxLength="2" />
+
+            <EditText
+                android:id="@+id/codigo"
+                android:layout_width="91dp"
+                android:layout_height="50dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="262dp"
+                android:layout_marginTop="224dp"
+                android:ems="10"
+                android:hint="@string/codigo"
+                android:inputType="number"
+                android:maxLength="3" />
+
+            <TextView
+                android:layout_width="208dp"
+                android:layout_height="31dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_centerVertical="true"
+                android:layout_marginStart="7dp"
+                android:layout_marginTop="302dp"
+                android:text="Direccion" />
+
+            <EditText
+                android:id="@+id/calle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_centerInParent="true"
+                android:layout_marginTop="351dp"
+                android:ems="10"
+                android:hint="@string/calle"
+                android:inputType="text" />
+
+            <EditText
+                android:id="@+id/ciudad"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_centerInParent="true"
+                android:layout_marginTop="418dp"
+                android:ems="10"
+                android:hint="@string/ciudad"
+                android:inputType="text" />
+
+            <Button
+                android:id="@+id/bton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true"
+                android:layout_marginTop="5dp"
+                android:layout_marginEnd="21dp"
+                android:background="#D6CECE"
+                android:text="@string/bton" />
+
+            <EditText
+                android:id="@+id/estado"
+                android:layout_width="185dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_centerVertical="true"
+                android:layout_marginStart="0dp"
+                android:layout_marginTop="478dp"
+                android:ems="10"
+                android:hint="@string/estado"
+                android:inputType="text" />
+
+            <EditText
+                android:id="@+id/codigop"
+                android:layout_width="185dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true"
+                android:layout_centerVertical="true"
+                android:layout_marginStart="202dp"
+                android:layout_marginTop="478dp"
+                android:layout_marginEnd="6dp"
+                android:ems="10"
+                android:hint="@string/codigop"
+                android:inputType="number" />
+        </RelativeLayout>
+    </ScrollView>
+</LinearLayout>

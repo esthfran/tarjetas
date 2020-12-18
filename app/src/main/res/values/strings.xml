@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">tarjetas</string>
+    <string name="codigop">codigo postal</string>
+    <string name="estado">estado</string>
+    <string name="bton">guardar</string>
+    <string name="ciudad">ciudad</string>
+    <string name="calle">calle</string>
+    <string name="codigo">codigo</string>
+    <string name="mes">mes</string>
+    <string name="año">año</string>
+    <string name="tarjeta">numero de tarjeta</string>
+    <string name="apellido">apellido</string>
+    <string name="nombre">nombre</string>
+</resources>
